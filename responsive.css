@@ -9,9 +9,14 @@
                
        }
      
+       .single-player{
+               margin-bottom:5px;
+       }
        
        .players-grid{
                 grid-template-columns: repeat(1, 1fr);
+              
+                
        }
        article.single-blog{
                 width: calc(100% - 20px);
