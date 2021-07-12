@@ -1,17 +1,16 @@
 /* Media quaries */
 
 
-@media only screen and (max-width: 480) {
+@media screen and (max-width: 480px) {
+       
        .container{
-               max-width: 460;
+               max-width: 460px;
                padding: 0 10px;
                
        }
      
-       .single-player{
-               width: 100%;
-       }
-       .palyers-grid{
+       
+       .players-grid{
                 grid-template-columns: repeat(1, 1fr);
        }
        article.single-blog{
