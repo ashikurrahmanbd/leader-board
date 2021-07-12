@@ -1,0 +1,70 @@
+/* declration for fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+        margin:0;
+        padding:0;
+        font-family: 'Poppins', sans-serif;
+        background: #F3F1FF;
+}
+*{
+        box-sizing: border-box;
+}
+
+.container{
+        /* max width set for the proper resonsiveness */
+        max-width:870px; 
+        margin:0 auto;
+}
+h1, h2, h3, h4, h5, h6{
+        margin:0;
+}
+ul{
+        padding:0;
+}
+li{
+        list-style: none;
+}
+
+/* Main css starts */
+header{
+        background: #562EFF;
+}
+.header-elements{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+header .logo{
+       display: flex;
+       align-items: center;
+}
+
+.logo img{
+        width:40px;
+        height: auto;
+}
+.logo span.logo-name{
+        color:#fff;
+        font-weight: bold;
+        font-size: 20px;
+        margin-left:10px;
+}
+
+.menu ul{
+        display: flex;
+        align-items: center;
+}
+.menu ul li{
+     margin-right:15px;
+}
+.menu ul li:last-child{
+        margin-right:0;
+}
+
+.menu ul li a{
+        text-decoration:none;
+        color: #fff;
+        padding: 10px 15px;
+        font-size:16px;
+}
