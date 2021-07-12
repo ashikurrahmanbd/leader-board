@@ -68,3 +68,80 @@ header .logo{
         padding: 10px 15px;
         font-size:16px;
 }
+
+/* Player - blog section css */
+/* players section */
+.player-blog{
+        
+        
+}
+.player-blog-elements{
+        background: #fff;
+        padding: 25px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+}
+.player-blog-elements h3{
+        color:#562EFF;
+        font-size: 20px;
+}
+.palyer{}
+.palyer{}
+.player h3{
+        margin-bottom:30px;
+}
+.palyers-grid{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 10px;
+        border-bottom:1px solid #D1D1D1;
+        padding-bottom:25px;
+        
+}
+.single-player{
+        display: flex;
+        align-items: center;
+        
+}
+.single-player img{
+        width:56px;
+        height: 56px;
+}
+.single-player h4{
+        font-size: 16px;
+        font-weight: normal;
+        margin-left:15px;
+}
+
+/* blog css */
+.blog{}
+.blog h3{
+        padding:25px 0;
+}
+.all-blogs{
+        display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+        margin-left: -10px;
+        margin-right:-10px'
+}
+article.single-blog{
+        width: calc(50% - 20px);
+        display: flex;
+        align-items: center;
+        margin: 10px;
+}       
+article.single-blog .blog-thumb img{
+        width:177px;
+        height:auto;
+}
+.single-blog .blog-info{
+        margin-left: 10px;
+}
+.blog-info p{
+        color: #9F9F9F;
+}
+.blog-info p span{
+        color: #562EFF;
+}
