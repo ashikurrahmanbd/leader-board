@@ -19,6 +19,9 @@ body{
 h1, h2, h3, h4, h5, h6{
         margin:0;
 }
+p{
+        margin:0;
+}
 ul{
         padding:0;
 }
@@ -79,7 +82,7 @@ header .logo{
         background: #fff;
         padding: 25px;
         margin-top: 25px;
-        margin-bottom: 15px;
+     
         border-radius: 5px;
 }
 .player-blog-elements h3{
@@ -141,7 +144,84 @@ article.single-blog .blog-thumb img{
 }
 .blog-info p{
         color: #9F9F9F;
+        margin-top: 10px;
 }
 .blog-info p span{
         color: #562EFF;
+}
+
+/* latest courses section csss */
+.latest-courses{
+        margin:15px 0;
+       
+       
+}
+
+.courses-elements{
+        background: #fff;
+        border-radius: 5px;
+        padding: 25px;
+}
+
+.courses-elements h3{
+        color: #562EFF;
+        margin-bottom:25px;
+}
+
+.all-courses{
+        display: flex;
+        align-items: center;
+        margin-left: -10px;
+        margin-right: -10px;
+}
+.single-course{
+        padding: 10px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 1px 1px 7px #000;
+        flex: calc(33.33% - 10px);
+        margin:0 10px;
+}
+
+.single-course .course-info{
+        margin-top:10px;
+}
+.course-info p.course-author{
+        color: #ED6B4F;
+}
+.course-thumb img{
+        width: 100%;
+        height: 104px;
+}
+.course-info .course-rating{
+        display: flex;
+        margin-top:15px;
+        align-items: center;
+        justify-content: space-between;
+        
+}
+.course-rating .rating{
+        display: flex;
+        align-items: center;
+}
+.rating p{
+        margin-left:5px;
+}
+.course-hour{
+        display: flex;
+        align-items: center;
+        background: rgba(237, 107, 79, 0.47);
+        padding: 0 5px;
+        border-radius: 15px;
+        font-size: 13px;
+}
+.course-hour i{
+        margin-right:5px;
+}
+.rating i.filled{
+        color: #FFC014;
+}
+.rating i.empty{
+        color: #AEAEAE;
+      
 }
